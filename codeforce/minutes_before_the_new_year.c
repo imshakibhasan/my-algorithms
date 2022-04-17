@@ -12,16 +12,16 @@
  */
 #include<stdio.h>
 int main() {
-    int i, n, total_min;
+    int i, n, ttl_min;
     scanf("%d", &n);
     int a[(n*2)];
     for ( i=0; i<(2*n); i++ ) {
         scanf("%d", &a[i]);
     }
     for ( i=0; i<(2*n); i=i+2 ) {
-        total_min = 0;
-        total_min = ((23-a[i])*60) + ( 60-a[i+1] );
-        printf("%d\t", total_min);
+        ttl_min = 0;
+        ttl_min = ((23-a[i])*60) + ( 60-a[i+1] );
+        printf("%d\t", ttl_min);
     }
     return 0;
 }
