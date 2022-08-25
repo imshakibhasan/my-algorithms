@@ -1,0 +1,18 @@
+Dr.Rafiq
+fever
+8 10 0 0 8 5 2022
+Dr.Faruk
+cold
+8 10 0 0 8 5 2022
+Dr.Nahid
+mental
+8 10 0 0 8 5 2022
+Dr.Riaj
+mental
+8 10 0 0 8 5 2022
+Dr.Rakib
+fever
+8 10 0 0 8 5 2022
+Dr.Ovi
+cold
+8 10 0 0 8 5 2022
