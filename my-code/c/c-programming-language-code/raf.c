@@ -94,7 +94,7 @@ int main() {
         }
     }
     return 0;
-}*/
+}
 
 #include<stdio.h>
 struct project {
@@ -111,4 +111,17 @@ int main() {
     scanf("%s\n", p1.last_name);
     scanf("%s\n", p1.user_name);
     scanf("%s\n", p1.password);
+}
+*/
+#include<stdio.h>
+int main() {
+    int n, last_digit;
+    scanf("%d", &n);
+    printf("%d\t", n);
+    while (n > 0) {
+        last_digit = n % 10;
+        printf("%d\t", last_digit);
+        n = n / 10;
+    }
+    return 0;
 }
