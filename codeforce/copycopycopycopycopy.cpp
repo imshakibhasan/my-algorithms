@@ -36,8 +36,7 @@ int main() {
 */
 #include<bits/stdc++.h>
 using namespace std;
-int main()
-{
+int main() {
     int t, i;
     cin>>t;
     for (i = 0; i < t; i++) {
