@@ -10,13 +10,13 @@
  */
 #include<stdio.h>
 int main() {
-    long int n;
-    scanf("%ld", &n);
+    long long int n;
+    scanf("%lld", &n);
     if (n % 2 == 0) {
-        printf("%ld", n/2);
+        printf("%lld", n/2);
     }
     else {
-        printf("%ld", -(n/2+1));
+        printf("%lld", -(n/2+1));
     }
     return 0;
 }
