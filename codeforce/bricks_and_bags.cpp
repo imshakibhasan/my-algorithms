@@ -31,7 +31,7 @@ int main() {
             }
         }
         if (flag = 0) {
-            sum = sum + + (arr[n-1] - arr[n-2]);
+            sum = sum + (arr[n-1] - arr[n-2]);
         }
         cout<<sum<<endl;
     }
