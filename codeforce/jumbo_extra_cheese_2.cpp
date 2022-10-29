@@ -15,11 +15,11 @@ int main() {
     int t;
     cin>>t;
     while (t--) {
-        int n, i, sum = 0, r = 0;
+        long long int n, i, sum = 0, r = 0;
         cin>>n;
-        int a[n], b[n];
+        long long int a[n], b[n];
         for (i = 0; i < n; i++) {
-            int x, y;
+            long long int x, y;
             cin>>x>>y;
             if (x < y) {
                 r = r + x;
