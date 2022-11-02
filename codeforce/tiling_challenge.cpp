@@ -39,7 +39,6 @@ int main() {
             }
         }
     }
-    cout<<"Count = "<<count<<endl<<"Total tiles = "<<total_ti<<endl;
     if (count == (5*total_ti)) {
         cout<<"YES"<<endl;
     }
