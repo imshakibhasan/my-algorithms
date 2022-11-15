@@ -25,18 +25,18 @@ int main() {
             }
         }
         for (i = 0; i < n; i++) {
-            if (s1[i] == 'R' && s2[i] == 'G' || s2[i] == 'R') {
+            if (s1[i] == 'R' && (s2[i] == 'G' || s2[i] == 'B')) {
                 flag++;
             }
-            else if (s2[i] == 'R' && s1[i] == 'G' || s1[i] == 'R') {
+            else if (s2[i] == 'R' && (s1[i] == 'G' || s1[i] == 'B')) {
                 flag++;
             }
         }
         if (flag > 0) {
-            cout<<"YES"<<endl;
+            cout<<"NO"<<endl;
         } 
         else {
-            cout<<"NO"<<endl;
+            cout<<"YES"<<endl;
         }
     }
 }
