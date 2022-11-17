@@ -33,8 +33,6 @@ int main() {
         p = min((min_p - 0), ((n+1) - min_p));
         q = min((max_p - 0), ((n+1) - max_p));
         r = abs(max_p - min_p);
-        cout<<"max position = "<<max_p<<"\nmin position = "<<min_p<<endl;
-        cout<<"p = "<<p<<"\nq = "<<q<<"\nr = "<<r<<endl;
         ans = min((p+q), min((p+r), (q+r)));
         cout<<ans<<endl;
     }
