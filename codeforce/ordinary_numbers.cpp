@@ -15,21 +15,37 @@ int main() {
     int t;
     cin>>t;
     while (t--) {
-        long long int n, r = 0, ans = 0, i = 10;
+        long long int i = 0, n, r = 0, q = 0, ans = 0, flag = 0, digit = 0, p;
         cin>>n;
-        if (n > 9) {
-            while (1) {
-                r = n / i;
-                ans = ans + r;
-                i = i * 10;
-                if (i > n) {
-                    break;
-                }
+        p = n;
+        while (p > 0) {
+            r = p % 10;
+            p = p / 10;
+            digit++;
+        }
+        ans = ((digit-1) * 9) + (r - 1);
+        p = n;
+        int arr[digit];
+        i = digit - 1;
+        while (p > 0) {
+            q = p % 10;
+            p = p / 10;
+            arr[i] = q;
+            i--; 
+        }
+        for (int j = 0; j < digit; j++) {
+            if (arr[j+1] < arr[j]) {
+                flag++;
+                break;
             }
-            cout<<ans+9<<endl;
+        }
+        if (flag == 0) {
+            ans++;
+            cout<<ans<<endl;
         }
         else {
-            cout<<n<<endl;
+            cout<<ans<<endl;
         }
+
     }
 }
