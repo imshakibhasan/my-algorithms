@@ -19,16 +19,12 @@ int main() {
         cin>>a>>b>>c>>x>>y;
         p = (a - x);
         q = (b - y);
-        cout<<"p = "<<p<<endl<<"q = "<<q<<endl;
         if (p < 0) {
             c = (c - abs(p));
-            cout<<"c = "<<c<<endl;
         }
         if (q < 0) {
             c = (c - abs(q));
-            cout<<"c = "<<c<<endl;
         }
-        cout<<"C = "<<c<<endl;
         if (c >= 0) {
             cout<<"YES"<<endl;
         }
