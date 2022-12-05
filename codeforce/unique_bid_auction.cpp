@@ -15,7 +15,7 @@ int main() {
     long long int t;
     cin>>t;
     while (t--) {
-        long long int i, j, count = 0, pos = -1, n, value = 0, flag = 0; 
+        long long int i, count = 0, pos = -1, n, value = 0, flag = 0; 
         cin>>n;
         long long int arr[n], res[n];
         for (i = 0; i < n; i++) {
@@ -25,21 +25,22 @@ int main() {
         sort(res, res+n);
         for (i = 0; i < n; i++) {
             count = 0;
-            for (j = 0; j < n; j++) {
-                if (res[i] == arr[j]) {
+            for (int j = 0; j < n; j++) {
+                if (res[i] == res[j]) {
                     count++;
-                    pos = j + 1;
                 }
             }
             if (count == 1) {
+                value = res[i];
                 break;
             }
-            else {
-                pos = -1;
+        }
+        for (i = 0; i < n; i++) {
+            if (arr[i] == value) {
+                pos = i+1;
+                break;
             }
         }
         cout<<pos<<endl;
     }
 }
-
-
