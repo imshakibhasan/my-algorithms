@@ -27,9 +27,8 @@ int main() {
             first_divisor = (first_divisor * 10) + 1;
             count--;
         }
-        //cout<<first_divisor<<endl;
         ans = n / first_divisor;
         ans = ans + (q-1)*9;
-        cout<<ans;
+        cout<<ans<<endl;
     }
 }
