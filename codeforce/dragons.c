@@ -17,6 +17,6 @@ int main() {
         if (i % 2 == 0) {
             scanf("");
         }
-        scanf("%d", &arr[i]);
+        //scanf("%d", &ar1[i]);
     }
 }
