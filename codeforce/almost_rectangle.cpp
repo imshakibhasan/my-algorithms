@@ -12,7 +12,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
-    int t;w
+    int t;
     cin>>t;
     while (t--) {
         int i, j, n, x1 = 0, y1 = 0, x2 = 0, y2 = 0, flag = 0;
