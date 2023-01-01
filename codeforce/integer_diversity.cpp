@@ -30,7 +30,7 @@ int main() {
             }
             count = 1;
             for (int j = i + 1; j < n; j++) {
-                if (arr[i] == arr[j]) {
+                if (arr[i] + arr[j] == 0 || arr[i] + arr[j] == (2*arr[i])) {
                     arr[j] = 0;
                     count++;
                 }
