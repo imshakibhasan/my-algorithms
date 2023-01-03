@@ -28,3 +28,21 @@ int main() {
         cout<<"NO"<<endl;
     }
 }
+
+/*
+Input:
+1 1 1
+1 1 1
+4
+1 1 3
+2 3 4
+2
+1 0 0
+1 0 0
+1
+
+Output:
+YES
+YES
+NO
+*/
