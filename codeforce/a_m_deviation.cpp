@@ -25,3 +25,18 @@ int main() {
         cout<<ans<<endl;
     }
 }
+
+/*
+Input
+3
+3 4 5
+2 2 6
+1 6 5
+*/
+
+/*
+Output
+0
+1
+0
+*/
