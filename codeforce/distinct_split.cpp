@@ -24,7 +24,7 @@ int main() {
                 continue;
             }
             count = 0;
-            for (j = 0; j < n; j++) {
+            for (j = i + 1; j < n; j++) {
                 if (arr[i] == arr[j]) {
                     count++;
                     arr[j] = '0';
