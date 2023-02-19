@@ -13,24 +13,22 @@
 using namespace std;
 int main() {
     int t;
-    
     cin>>t;
     while(t--) {
-        int i, z , one;
+        int i, zero = 0, one = 0;
         string s;
-        z=0,one=0;
         cin>>s;
         for(i=0; i<s.size(); i++) {
             if(s[i]=='0')
-                z++;
+                zero++;
              else
             one++;
         }
-        if(z!=one) {
-            cout<<min(z,one)<<endl;
+        if(zero != one) {
+            cout<<min(zero, one)<<endl;
         }
         else {
-            cout<<z-1<<endl;
+            cout<<zero-1<<endl;
         }
     }
 }
