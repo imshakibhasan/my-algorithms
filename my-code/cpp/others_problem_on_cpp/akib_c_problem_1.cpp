@@ -34,6 +34,7 @@ int main() {
 }
 */
 /*
+// Less Time Task
 #include<stdio.h>
 int main() {
     int ah, am, as, bh, bm, bs;
@@ -51,6 +52,7 @@ int main() {
     }
 }
 */
+// Maximum Median Minimum
 #include<stdio.h>
 int main() {
     int a, b, c, maximum, median, minimum;
