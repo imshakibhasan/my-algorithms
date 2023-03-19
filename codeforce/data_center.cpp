@@ -38,7 +38,7 @@ int main()
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
-    int i, n, ans = 0, res = 1000000, r = 0, p = 0;
+    int i, n, ans = 0, res = 1000000000, r = 0, p = 0;
     cin>>n;
     for (i = 1; i <= sqrt(n); i++) {
         if (n % i == 0) {
@@ -46,11 +46,8 @@ int main() {
             p = i;
             ans = (2*r) + (2*p);
             res = min(res, ans);
-            cout<<"Res = "<<res<<"\n";
         }
     }
-    cout<<" r = "<<r<<endl;
-    cout<<" p = "<<p<<endl;
     cout<<res<<endl;
 }
 
