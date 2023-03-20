@@ -25,8 +25,6 @@ int main() {
                 bianca = bianca + x;
             }
         }
-        cout<<"bianca = "<<bianca<<endl;
-        cout<<"mihai = "<<mihai<<endl;
         if (mihai > bianca) {
             cout<<"YES"<<endl;
         }
