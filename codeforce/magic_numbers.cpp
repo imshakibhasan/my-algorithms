@@ -11,7 +11,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
-    long long int n, r, max4 = 0, flag = 0, count4 = 0;
+    long long int n, r, max4 = 0, flag = 0, count4=0;
     cin>>n;
     while (n > 0) {
         r = n % 10;
