@@ -6,7 +6,7 @@
  * @date 2023-04-11
  * 
  * @copyright Copyright (c) 2023
- * 
+ * Problem : https://codeforces.com/problemset/problem/1816/A
  */
 
 #include<bits/stdc++.h>
