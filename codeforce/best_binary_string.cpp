@@ -6,7 +6,7 @@
  * @date 2023-06-02
  * 
  * @copyright Copyright (c) 2023
- * Problem :
+ * Problem : https://codeforces.com/problemset/problem/1837/C
  */
 #include<bits/stdc++.h>
 using namespace std;
