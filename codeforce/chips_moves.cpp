@@ -8,17 +8,6 @@
  * @copyright Copyright (c) 2023
  * Problem : https://codeforces.com/problemset/problem/1213/A
  */
-/*
-#include<bits/stdc++.h>
-using namespace std;
-int main() {
-    int n,s,x,i;
-    for (cin>>n; i++<n; s+=x&1){
-        cin>>x;
-    }
-    cout<<min(s,n-s);
-}
-*/
 #include<iostream>
 using namespace std;
 int n,s,x,i;
@@ -26,7 +15,7 @@ int main(){
     for(cin>>n;i++<n;s+=x&1){ 
         cin>>x;
     }
-    cout<<min(s,n-s);
+    cout<<min(s,n-s)<<endl;
 }
 
 /*Input
